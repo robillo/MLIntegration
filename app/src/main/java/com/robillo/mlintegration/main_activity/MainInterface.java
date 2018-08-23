@@ -1,4 +1,4 @@
-package com.robillo.mlintegration;
+package com.robillo.mlintegration.main_activity;
 
 public interface MainInterface {
 

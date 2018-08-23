@@ -1,9 +1,116 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ChoiceActivity">
+    android:orientation="vertical"
+    tools:context=".choice_activity.ChoiceActivity">
 
-</android.support.constraint.ConstraintLayout>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_weight="1"
+        android:text="Motion Detect"
+        android:textSize="20sp"
+        android:background="?android:attr/selectableItemBackground"
+        android:id="@+id/motion_detect"
+        tools:ignore="HardcodedText" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1sp"
+        android:background="#000000"
+        tools:ignore="ContentDescription,SmallSp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_weight="1"
+        android:text="Face Detect"
+        android:textSize="20sp"
+        android:background="?android:attr/selectableItemBackground"
+        android:id="@+id/face_detect"
+        tools:ignore="HardcodedText" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1sp"
+        android:background="#000000"
+        tools:ignore="ContentDescription,SmallSp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_weight="1"
+        android:text="Barcode Reader"
+        android:textSize="20sp"
+        android:background="?android:attr/selectableItemBackground"
+        android:id="@+id/barcode_reader"
+        tools:ignore="HardcodedText" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1sp"
+        android:background="#000000"
+        tools:ignore="ContentDescription,SmallSp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_weight="1"
+        android:text="Text Scan"
+        android:textSize="20sp"
+        android:background="?android:attr/selectableItemBackground"
+        android:id="@+id/text_scan"
+        tools:ignore="HardcodedText" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1sp"
+        android:background="#000000"
+        tools:ignore="ContentDescription,SmallSp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_weight="1"
+        android:text="Face Emoji"
+        android:textSize="20sp"
+        android:background="?android:attr/selectableItemBackground"
+        android:id="@+id/face_emoji"
+        tools:ignore="HardcodedText" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1sp"
+        android:background="#000000"
+        tools:ignore="ContentDescription,SmallSp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_weight="1"
+        android:text="Augmented Reality"
+        android:textSize="20sp"
+        android:background="?android:attr/selectableItemBackground"
+        android:id="@+id/augmented_reality"
+        tools:ignore="HardcodedText" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1sp"
+        android:background="#000000"
+        tools:ignore="ContentDescription,SmallSp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_weight="1"
+        android:text="Virtual Reality"
+        android:textSize="20sp"
+        android:background="?android:attr/selectableItemBackground"
+        android:id="@+id/virtual_reality"
+        tools:ignore="HardcodedText" />
+
+</LinearLayout>

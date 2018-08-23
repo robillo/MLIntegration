@@ -1,4 +1,4 @@
-package com.robillo.mlintegration
+package com.robillo.mlintegration.main_activity
 
 import android.Manifest
 import android.content.Intent
@@ -8,6 +8,8 @@ import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import android.widget.Toast
+import com.robillo.mlintegration.choice_activity.ChoiceActivity
+import com.robillo.mlintegration.R
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity(), MainInterface {
