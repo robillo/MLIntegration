@@ -19,7 +19,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".choice_activity.ChoiceActivity"/>
+        <activity android:name=".choice_activity.ChoiceActivity" />
+        <activity android:name=".BarcodeActivity"></activity>
     </application>
 
 </manifest>
