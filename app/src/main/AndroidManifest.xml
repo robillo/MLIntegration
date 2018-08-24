@@ -21,7 +21,12 @@
         </activity>
         <activity android:name=".choice_activity.ChoiceActivity" />
         <activity android:name=".barcode_activity.BarcodeActivity" />
-        <activity android:name=".vr_activity.VrActivity"></activity>
+        <activity android:name=".vr_activity.VrActivity"
+            android:screenOrientation="landscape">
+            <intent-filter>
+                <category android:name="com.google.intent.category.CARDBOARD" />
+            </intent-filter>
+        </activity>
     </application>
 
 </manifest>

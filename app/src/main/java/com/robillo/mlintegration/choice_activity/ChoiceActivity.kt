@@ -5,6 +5,7 @@ import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import com.robillo.mlintegration.barcode_activity.BarcodeActivity
 import com.robillo.mlintegration.R
+import com.robillo.mlintegration.vr_activity.VrActivity
 import kotlinx.android.synthetic.main.activity_choice.*
 
 class ChoiceActivity : AppCompatActivity(), ChoiceInterface {
@@ -55,6 +56,6 @@ class ChoiceActivity : AppCompatActivity(), ChoiceInterface {
     }
 
     override fun goToVirtualReality() {
-
+        startActivity(Intent(this, VrActivity::class.java))
     }
 }
