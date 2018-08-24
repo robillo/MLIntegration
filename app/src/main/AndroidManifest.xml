@@ -20,7 +20,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".choice_activity.ChoiceActivity" />
-        <activity android:name=".BarcodeActivity"></activity>
+        <activity android:name=".barcode_activity.BarcodeActivity" />
+        <activity android:name=".vr_activity.VrActivity"></activity>
     </application>
 
 </manifest>

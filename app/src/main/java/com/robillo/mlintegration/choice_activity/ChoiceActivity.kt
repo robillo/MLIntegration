@@ -3,7 +3,7 @@ package com.robillo.mlintegration.choice_activity
 import android.content.Intent
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
-import com.robillo.mlintegration.BarcodeActivity
+import com.robillo.mlintegration.barcode_activity.BarcodeActivity
 import com.robillo.mlintegration.R
 import kotlinx.android.synthetic.main.activity_choice.*
 
