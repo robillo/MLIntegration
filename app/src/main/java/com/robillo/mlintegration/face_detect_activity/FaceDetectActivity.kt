@@ -23,9 +23,9 @@ import kotlinx.android.synthetic.main.activity_face_detect.*
 class FaceDetectActivity : AppCompatActivity() {
 
     lateinit var options: FirebaseVisionFaceDetectorOptions;
-    lateinit var visionImage: FirebaseVisionImage;
     lateinit var detector: FirebaseVisionFaceDetector;
     lateinit var bounds: Rect;
+    lateinit var visionImage: FirebaseVisionImage;
     var drawable : Int = 0;
     var leftEar: FirebaseVisionFaceLandmark? = null;
     var rightEar: FirebaseVisionFaceLandmark? = null;

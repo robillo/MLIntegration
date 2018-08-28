@@ -32,7 +32,8 @@
                 <category android:name="com.google.intent.category.CARDBOARD" />
             </intent-filter>
         </activity>
-        <activity android:name=".face_detect_activity.FaceDetectActivity"/>
+        <activity android:name=".face_detect_activity.FaceDetectActivity" />
+        <activity android:name=".text_scan_activity.TextScanActivity"></activity>
     </application>
 
 </manifest>

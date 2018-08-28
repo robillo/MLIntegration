@@ -6,6 +6,7 @@ import android.os.Bundle
 import com.robillo.mlintegration.barcode_activity.BarcodeActivity
 import com.robillo.mlintegration.R
 import com.robillo.mlintegration.face_detect_activity.FaceDetectActivity
+import com.robillo.mlintegration.text_scan_activity.TextScanActivity
 import com.robillo.mlintegration.vr_activity.VrActivity
 import kotlinx.android.synthetic.main.activity_choice.*
 
@@ -45,7 +46,7 @@ class ChoiceActivity : AppCompatActivity(), ChoiceInterface {
     }
 
     override fun goToTextScan() {
-
+        startActivity(Intent(this, TextScanActivity::class.java))
     }
 
     override fun goToFaceEmoji() {
