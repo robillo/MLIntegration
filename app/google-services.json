@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "960986333855",
+    "firebase_url": "https://ml-integration-samples.firebaseio.com",
+    "project_id": "ml-integration-samples",
+    "storage_bucket": "ml-integration-samples.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:960986333855:android:0e2673e91bd306aa",
+        "android_client_info": {
+          "package_name": "com.robillo.mlintegration"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "960986333855-5pjm3064d5pnc9e8g9kcarpat0r2gbcl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAB4VKFFD6QhZVGmpRLmxmcaBoXaw1IeNU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
