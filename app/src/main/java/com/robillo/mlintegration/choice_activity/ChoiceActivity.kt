@@ -6,6 +6,7 @@ import android.os.Bundle
 import com.robillo.mlintegration.barcode_activity.BarcodeActivity
 import com.robillo.mlintegration.R
 import com.robillo.mlintegration.face_detect_activity.FaceDetectActivity
+import com.robillo.mlintegration.label_generator_activity.LabelGeneratorActivity
 import com.robillo.mlintegration.text_scan_activity.TextScanActivity
 import com.robillo.mlintegration.vr_activity.VrActivity
 import kotlinx.android.synthetic.main.activity_choice.*
@@ -24,7 +25,7 @@ class ChoiceActivity : AppCompatActivity(), ChoiceInterface {
     }
 
     override fun setOnClick() {
-        motion_detect.setOnClickListener { goToMotionDetect() }
+        motion_detect.setOnClickListener { goToLabelGenerator() }
         face_detect.setOnClickListener { goToFaceDetect() }
         barcode_reader.setOnClickListener { goToBarcode() }
         text_scan.setOnClickListener { goToTextScan() }
@@ -33,8 +34,8 @@ class ChoiceActivity : AppCompatActivity(), ChoiceInterface {
         virtual_reality.setOnClickListener { goToVirtualReality() }
     }
 
-    override fun goToMotionDetect() {
-
+    override fun goToLabelGenerator() {
+        startActivity(Intent(this, LabelGeneratorActivity::class.java))
     }
 
     override fun goToFaceDetect() {

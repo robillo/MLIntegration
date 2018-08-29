@@ -6,7 +6,7 @@ public interface ChoiceInterface {
 
     void setOnClick();
 
-    void goToMotionDetect();
+    void goToLabelGenerator();
 
     void goToFaceDetect();
 

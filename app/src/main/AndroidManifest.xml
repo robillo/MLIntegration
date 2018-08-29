@@ -14,7 +14,7 @@
         android:theme="@style/AppTheme">
         <meta-data
             android:name="com.google.firebase.ml.vision.DEPENDENCIES"
-            android:value="face" />
+            android:value="barcode,text,face,label" />
 
         <activity android:name=".main_activity.MainActivity">
             <intent-filter>
@@ -33,7 +33,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".face_detect_activity.FaceDetectActivity" />
-        <activity android:name=".text_scan_activity.TextScanActivity"></activity>
+        <activity android:name=".text_scan_activity.TextScanActivity" />
+        <activity android:name=".label_generator_activity.LabelGeneratorActivity" />
     </application>
 
 </manifest>
