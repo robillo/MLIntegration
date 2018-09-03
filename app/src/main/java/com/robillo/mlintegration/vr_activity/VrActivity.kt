@@ -20,8 +20,7 @@ class VrActivity : AppCompatActivity() {
 
     private fun loadPhotoSphere() {
         //This could take a while. Should do on a background thread, but fine for current example
-        pano_view
-                .loadImageFromBitmap(
+        pano_view.loadImageFromBitmap(
                         BitmapFactory.decodeResource(getResources(), R.drawable.panaroma8),
                         VrPanoramaView.Options()
                 )

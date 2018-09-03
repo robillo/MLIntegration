@@ -17,8 +17,8 @@ import kotlinx.android.synthetic.main.activity_face_detect.*
 
 class TextScanActivity : AppCompatActivity() {
 
-    lateinit var detector : FirebaseVisionTextRecognizer
-    lateinit var visionImage: FirebaseVisionImage
+    private lateinit var detector : FirebaseVisionTextRecognizer
+    private lateinit var visionImage: FirebaseVisionImage
     var drawable : Int = 0
 
     override fun onCreate(savedInstanceState: Bundle?) {
